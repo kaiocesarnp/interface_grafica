@@ -1,0 +1,5 @@
+Ordem dos arquivos:
+funcionalidades e teste_funcionalidades
+funcionarios e teste_funcionarios
+area e teste_area
+cronometro
