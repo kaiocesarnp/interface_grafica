@@ -1,0 +1,18 @@
+'kivy.app' é um módulo em Kivy, um framework Python para interfaces gráficas (GUI). 
+Ele fornece a classe "App", que é a base para criar aplicativos Kivy. 
+Os aplicativos Kivy herdam dessa classe e implementam métodos para definir a interface e o comportamento do aplicativo.
+
+'kivy.uix' é um submódulo em Kivy, um framework Python para criar interfaces gráficas (GUI). 
+Ele contém classes para construir elementos de interface como botões, layouts, caixas de texto, etc., 
+simplificando o desenvolvimento de aplicativos com interfaces visuais.
+
+'kivy.uix.button' é um módulo em Kivy (framework de interface gráfica em Python) que contém a classe "Button". 
+Essa classe é usada para criar botões interativos em aplicações gráficas.
+
+
+
+
+
+
+
+
