@@ -9,8 +9,9 @@ simplificando o desenvolvimento de aplicativos com interfaces visuais.
 'kivy.uix.button' é um módulo em Kivy (framework de interface gráfica em Python) que contém a classe "Button". 
 Essa classe é usada para criar botões interativos em aplicações gráficas.
 
-
-
+'def build(self):' é um método obrigatório em uma classe Kivy que herda de App. 
+Ele é usado para criar e retornar o widget principal (root) da interface gráfica da aplicação Kivy. 
+Esse método é chamado automaticamente quando a aplicação é iniciada.
 
 
 

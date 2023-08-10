@@ -1,0 +1,14 @@
+#Arquivo ligado ao 'testeThree3_kivy.py'
+
+<Button>:
+    text: 'Aperte o botão!'
+    size_hint: (.5, .5)
+    pos_hint: {'center_x': .5, 'center_y': .5}
+    on_press: app.on_press_button()
+
+
+#A linha 1 corresponde à chamada Button em seu código Python. Ela diz ao Kivy paraprocurar no objeto instanciado uma definição de botão;
+#A linha 2 define o text;
+#A linha 3 define a largura e a altura com size_hint;
+#A linha 4 define a posição do botão com pos_hint;
+#A linha 5 define o manipulador de eventos on_press. Parainformar ao Kivy onde está o manipulador de eventos, você usaapp.on_press_button(). Aqui, o Kivy sabe que procurará naclasse App por um método chamado .on_press_button().
