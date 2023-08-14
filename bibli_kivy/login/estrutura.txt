@@ -1,0 +1,27 @@
+Criando sua primeira aplicação
+
+Agora, dando um passo adiante, você construirá um código mais robusto, que dependerá de mais de um arquivo.
+A ideia aqui será criar uma tela de login que valide se um usuário existe ou não.
+Além disso, caso o usuário não possua conta e queira criá-la, isso também será possível.
+Juntando seus conhecimentos de POO e bibliotecaKivy , é possível separar sua aplicação em quatro arquivos:
+
+main.py
+Este arquivo receberá a estrutura lógica das ações de sua aplicação.
+
+database.py
+Este arquivo será responsável pela criação e armazenamento de usuários.
+
+users.txt
+Será o arquivo de cadastro dos seus usuários e onde o arquivo principal consultará para validar os mesmos.
+
+mk.kv
+Será um arquivo kivy que receberá a parte do layout dos botões e algumas ações dos mesmos.
+Observe que tudo que se encontra dentro da simbologia “bra-ket” (< >) representa o nome das classes que estarão presentes dentro do arquivo main.py.
+Aqui o foco é apenas dar alguns direcionamentos e otimizar seu código, já que os arquivos do tipo .kv servem para separar a criação dos widgets e as suas funcionalidades. Isso ajuda, inclusive, na parte de encapsulamento de código.
+
+
+
+
+
+
+
