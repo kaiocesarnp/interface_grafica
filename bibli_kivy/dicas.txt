@@ -13,6 +13,11 @@ Essa classe é usada para criar botões interativos em aplicações gráficas.
 Ele é usado para criar e retornar o widget principal (root) da interface gráfica da aplicação Kivy. 
 Esse método é chamado automaticamente quando a aplicação é iniciada.
 
+A classe App, importada da biblioteca Kivy, deve ser herdada para nossa classe principal, 
+e a função build() é a que ditará a construção da aplicação.
+
+Arquivos .kv são importantes para a construção de aplicações Kivy para deixar o código principal 
+apenas para a criação dos widgets e o arquivo .kv guardando seus parâmetros e funcionalidades.
 
 
 
