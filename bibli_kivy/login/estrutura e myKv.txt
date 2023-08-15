@@ -14,14 +14,21 @@ Este arquivo será responsável pela criação e armazenamento de usuários.
 users.txt
 Será o arquivo de cadastro dos seus usuários e onde o arquivo principal consultará para validar os mesmos.
 
-mk.kv
+my.kv
 Será um arquivo kivy que receberá a parte do layout dos botões e algumas ações dos mesmos.
 Observe que tudo que se encontra dentro da simbologia “bra-ket” (< >) representa o nome das classes que estarão presentes dentro do arquivo main.py.
 Aqui o foco é apenas dar alguns direcionamentos e otimizar seu código, já que os arquivos do tipo .kv servem para separar a criação dos widgets e as suas funcionalidades. Isso ajuda, inclusive, na parte de encapsulamento de código.
 
+Explicação my.kv:
+Bloco 1: Definição da Tela CreateAccountWindow
+Neste bloco, a interface da tela de criação de conta é definida. Ela inclui 
+campos para nome, e-mail e senha, bem como botões para criar uma conta ou 
+voltar para a tela de login.
 
+Bloco 2: Definição da Tela LoginWindow
+Neste bloco, a interface da tela de login é definida. Ela contém campos para o usuário inserir 
+seu e-mail e senha, bem como botões para realizar o login ou criar uma nova conta.
 
-
-
-
-
+Bloco 3: Definição da Tela MainWindow
+Neste bloco, a interface da tela principal é definida. Ela exibe informações sobre a conta do usuário, 
+incluindo nome, e-mail e data de criação, além de um botão para fazer logout.
