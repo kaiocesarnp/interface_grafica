@@ -164,21 +164,3 @@ if __name__ == "__main__":
     #O bloco if __name__ == "__main__":
         #verifica se o script está sendo executado diretamente, não sendo importado como um módulo.
         #Se for o caso, a instância de MyMainApp é criada e o aplicativo é executado.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    

@@ -46,4 +46,43 @@ class DataBase:
     @staticmethod
     def get_date():
         return str(datetime.datetime.now()).split(" ")[0]
+
+
+
+#Explicação por blocos:
+#Bloco 1: Importações Iniciais
+#Importa o módulo datetime para manipular datas e horários.
+
+#Bloco 2: Definição da Classe DataBase
+#Define a classe DataBase com um construtor __init__ que recebe um nome de arquivo.
+#Inicializa propriedades filename, users, e file e chama o método load().
+
+#Bloco 3: Método load() da Classe DataBase
+#Abre o arquivo no modo de leitura.
+#Inicializa o dicionário users.
+#Percorre cada linha do arquivo, separa os valores por ponto e vírgula e armazena no dicionário users.
+#Fecha o arquivo.
+
+#Bloco 4: Método get_user() da Classe DataBase
+#Recebe um e-mail como argumento.
+#Verifica se o e-mail existe no dicionário users e retorna as
+    #informações do usuário correspondente ou -1 se não encontrado.
+
+#Bloco 5: Método add_user() da Classe DataBase
+#Recebe e-mail, senha e nome como argumentos.
+#Verifica se o e-mail já existe no dicionário users.
+#Se não existir, adiciona as informações do novo usuário ao dicionário, incluindo
+    #a data de criação, e chama save() para salvar as alterações no arquivo.
+
+#Bloco 6: Método validate() da Classe DataBase
+#Recebe e-mail e senha como argumentos.
+#Chama get_user() para verificar se o e-mail existe no dicionário.
+#Se existir, compara a senha fornecida com a senha registrada para esse e-mail.
+
+#Bloco 7: Método save() da Classe DataBase
+#Abre o arquivo no modo de escrita.
+#Percorre o dicionário users e escreve as informações dos usuários no arquivo.
+
+#Bloco 8: Método Estático get_date() da Classe DataBase
+#Retorna a data atual em formato de string.
     
